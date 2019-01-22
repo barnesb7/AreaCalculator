@@ -23,4 +23,10 @@ public class Calculator {
         return height;
     }
 
+    public double calculateArea(double enteredWidth, double enteredHeight){
+        double area = enteredWidth * enteredHeight;
+        return area;
+
+    }
+
 }
